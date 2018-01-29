@@ -8,10 +8,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ishanyang/i-validator.git"
+    "url": "git+https://github.com/ishanyang/pagingdata.git"
   },
   "bugs": {
-    "url": "https://github.com/ishanyang/i-validator/issues"
+    "url": "https://github.com/ishanyang/pagingdata/issues"
   },
   "author": "ishanyang",
   "license": "MIT"
