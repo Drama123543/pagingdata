@@ -1,5 +1,7 @@
 # pagingdata [![Build Status](https://travis-ci.org/ishanyang/pagingdata.svg?branch=master)](https://travis-ci.org/ishanyang/pagingdata)
 
+npm install pagingdata
+
 ```JavaScript
 /**
  * pagingData(pageLength, length, recordsTotal, currentPage)
