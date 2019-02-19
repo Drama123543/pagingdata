@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test.js"
+    "test": "nyc mocha test.js",
+    "prebuild": "npm run test",
+    "build": "browserify index.js --standalone pagingData > dist/pagingdata.js"
   },
   "repository": {
     "type": "git",
@@ -16,6 +18,8 @@
   "author": "ishanyang",
   "license": "MIT",
   "devDependencies": {
-    "mocha": "^5.0.0"
+    "browserify": "^16.2.3",
+    "mocha": "^5.0.0",
+    "nyc": "^13.3.0"
   }
 }
